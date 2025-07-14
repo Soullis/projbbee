@@ -12,7 +12,7 @@ sys.path.append(parent_dir)
 
 import drone
 
-d = drone.Drone()
+d = drone.Drone(400, 0, 300)
 
 
 pg.init()
@@ -50,7 +50,7 @@ class DronePlayer(pg.sprite.Sprite):
             d.command('rb')
         if keys[pg.K_a]:
             d.command('pb')
-        if keys[pg.K_f]:
+        if keys[pg.K_d]:
             d.command('pf')
             
         drone.rect.y = d.pos[2]
@@ -143,6 +143,8 @@ while running:
     pos_text = f"FL: {d.m[0]:.2f} FR: {d.m[1]:.2f} BL: {d.m[2]:.2f} BR: {d.m[3]:.2f} Lidar {d.lidar_val:.2f} R {d.rot:.2f}"
     text_surface = font.render(pos_text, True, (0, 0, 0)) 
     screen.blit(text_surface, (10, 10))
+
+    print(drone.rect.x, " ", drone.rect.y)
 
     pg.display.flip()
     clock.tick(60)

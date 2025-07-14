@@ -4,11 +4,12 @@ base = 50
 sp = 1
 
 class Drone():
-    def __init__(self):
-        self.pos = [400, 0, 300] # [x, y, z]
+    def __init__(self, inX, inY, inZ):
+        self.pos = [inX, inY, inZ]
         self.rot = 0 # [x, y, z]
         self.m = [50, 50, 50, 50] # FL FR BL BR
         self.lidar_val = self.pos[1]
+        self.obj_detector_range = self.pos[1] + 10
 
     def mma(self, roll, pitch, yaw, throttle):
         if self.pos[1] >= 1:
@@ -29,6 +30,8 @@ class Drone():
             self.pos[1] += self.controls["t"] * sp
         self.rot += self.controls["y"] * sp
         self.rot = self.rot % 360
+
+        self.obj_detector_range = self.pos[1] + 10
     
     def command(self, cmmd):
         
@@ -55,6 +58,6 @@ class Drone():
 
     def lidar(self, alt):
         return self.pos[1] - alt
-        
+
 
         
