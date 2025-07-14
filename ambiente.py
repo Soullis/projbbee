@@ -1,4 +1,12 @@
+from drone import Drone
+
+drone = Drone(500, 0, 0, 90)
+
 arena = [1000, 1000]
+fX = 500
+fY= 200
+fSize = 100
+fH = 100
 
 class Obstaculo():
     def __init__(self, size, posX, posY, alt):
@@ -17,6 +25,8 @@ class Obstaculo():
             |    |/
             +----+
             0    1
+
+            8 = face frontal base
         """
         if id == 0:
             return [self.posX, self.posY, 0]
@@ -34,9 +44,11 @@ class Obstaculo():
             return [self.posX + self.size, self.posY + self.size, self.alt]
         if id == 7:
              return [self.posX, self.posY + self.size, self.alt]
+        if id == 8:
+            return [self.posX, self.posX + self.size]
     
 
-obstaculos = [Obstaculo(500, 200, 100), Obstaculo(600, 400, 100), Obstaculo(400, 600, 100)]
+obstaculos = [Obstaculo(fSize, fX, fY, fH), Obstaculo(fSize, fX + 100, fY, fH), Obstaculo(fSize, fX - 100, fY, fH)]
 
 
         
