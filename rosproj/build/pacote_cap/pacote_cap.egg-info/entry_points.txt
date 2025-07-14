@@ -1,3 +1,4 @@
 [console_scripts]
-
+objc_detector_pub = pacote_cap.objc_detector_pub:main
+objc_detector_sub = pacote_cap.objc_detector_sub:main
 

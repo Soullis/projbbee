@@ -8,7 +8,13 @@ setup.py
 ../../build/pacote_cap/pacote_cap.egg-info/requires.txt
 ../../build/pacote_cap/pacote_cap.egg-info/top_level.txt
 ../../build/pacote_cap/pacote_cap.egg-info/zip-safe
+launch/drone_launch.py
 pacote_cap/__init__.py
+pacote_cap/ambiente.py
+pacote_cap/drone.py
+pacote_cap/movimentacao.py
+pacote_cap/objc_detector_pub.py
+pacote_cap/objc_detector_sub.py
 resource/pacote_cap
 test/test_copyright.py
 test/test_flake8.py

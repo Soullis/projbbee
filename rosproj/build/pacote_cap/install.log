@@ -1,7 +1,18 @@
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/objc_detector_sub.py
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/ambiente.py
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/objc_detector_pub.py
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/drone.py
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__init__.py
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/movimentacao.py
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__pycache__/objc_detector_sub.cpython-310.pyc
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__pycache__/ambiente.cpython-310.pyc
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__pycache__/objc_detector_pub.cpython-310.pyc
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__pycache__/drone.cpython-310.pyc
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__pycache__/__init__.cpython-310.pyc
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__pycache__/movimentacao.cpython-310.pyc
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index/packages/pacote_cap
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/package.xml
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/launch/drone_launch.py
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info/top_level.txt
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info/zip-safe
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -9,3 +20,5 @@
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info/entry_points.txt
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info/PKG-INFO
 /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/pacote_cap/objc_detector_pub
+/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/pacote_cap/objc_detector_sub
