@@ -1,7 +1,16 @@
 import pygame as pg
-import drone
 import random
 
+import sys
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+
+sys.path.append(parent_dir)
+
+import drone
 
 d = drone.Drone()
 
@@ -9,8 +18,9 @@ d = drone.Drone()
 pg.init()
 
 class DronePlayer(pg.sprite.Sprite):
-    def __init__(self, image_path, pos_x, pos_y):
+    def __init__(self, image_name, pos_x, pos_y):
         super().__init__()
+        image_path = os.path.join(script_dir, image_name)
         self.orig_imag = pg.image.load(image_path).convert_alpha()
         self.image = self.orig_imag.copy()
         self.rect = self.image.get_rect()
