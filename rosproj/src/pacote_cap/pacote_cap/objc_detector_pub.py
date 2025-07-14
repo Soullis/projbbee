@@ -1,18 +1,9 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-
-import sys
-import os
-
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir)
-
-sys.path.append(parent_dir)
-
 import ambiente as am
 
-class ObjDetector(Node):
+class ObjDetectorPub(Node):
     def __init__(self, max_obs):
         super().__init__("obj_detector_pub")
 
@@ -27,7 +18,7 @@ class ObjDetector(Node):
 
     def timer_callback(self):
         msg = String()
-        if am.obstaculos[i].limits(8)[0] <= am.drone.pos[0] <= am.obstaculos[self.current_obs].limits(8)[1] and am.drone.obj_detector_range[0] <= am.obstaculos[self.current_obs].posY <= am.drone.obj_detector_range[1]:
+        if am.obstaculos[self.current_obs].limits(8)[0] <= am.drone.pos[0] <= am.obstaculos[self.current_obs].limits(8)[1] and am.drone.obj_detector_range[0] <= am.obstaculos[self.current_obs].posY <= am.drone.obj_detector_range[1]:
             msg.data = f"{am.obstaculos[self.current_obs].posY - am.drone.pos[2]}"
         else:
             msg.data = "-1"
@@ -40,7 +31,7 @@ class ObjDetector(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    obj_detector_pub = ObjDetector()
+    obj_detector_pub = ObjDetectorPub()
     
     rclpy.spin(obj_detector_pub)
 
