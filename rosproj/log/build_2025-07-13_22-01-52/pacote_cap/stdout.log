@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/pacote_cap/pacote_cap.egg-info
+writing ../../build/pacote_cap/pacote_cap.egg-info/PKG-INFO
+writing dependency_links to ../../build/pacote_cap/pacote_cap.egg-info/dependency_links.txt
+writing entry points to ../../build/pacote_cap/pacote_cap.egg-info/entry_points.txt
+writing requirements to ../../build/pacote_cap/pacote_cap.egg-info/requires.txt
+writing top-level names to ../../build/pacote_cap/pacote_cap.egg-info/top_level.txt
+writing manifest file '../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt'
+reading manifest file '../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt'
+writing manifest file '../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+copying pacote_cap/__init__.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+running install
+running install_lib
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/__init__.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index
+creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index/packages
+copying resource/pacote_cap -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index/packages
+copying package.xml -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap
+running install_egg_info
+Copying ../../build/pacote_cap/pacote_cap.egg-info to /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/install.log'

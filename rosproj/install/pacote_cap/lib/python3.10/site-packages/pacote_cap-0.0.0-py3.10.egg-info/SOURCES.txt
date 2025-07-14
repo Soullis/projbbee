@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pacote_cap/pacote_cap.egg-info/PKG-INFO
+../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt
+../../build/pacote_cap/pacote_cap.egg-info/dependency_links.txt
+../../build/pacote_cap/pacote_cap.egg-info/entry_points.txt
+../../build/pacote_cap/pacote_cap.egg-info/requires.txt
+../../build/pacote_cap/pacote_cap.egg-info/top_level.txt
+../../build/pacote_cap/pacote_cap.egg-info/zip-safe
+pacote_cap/__init__.py
+resource/pacote_cap
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
