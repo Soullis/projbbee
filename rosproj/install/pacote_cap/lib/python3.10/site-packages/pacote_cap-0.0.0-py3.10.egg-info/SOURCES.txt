@@ -12,9 +12,9 @@ launch/drone_launch.py
 pacote_cap/__init__.py
 pacote_cap/ambiente.py
 pacote_cap/drone.py
-pacote_cap/movimentacao.py
-pacote_cap/objc_detector_pub.py
-pacote_cap/objc_detector_sub.py
+pacote_cap/drone_controller.py
+pacote_cap/obstacle_detector_node.py
+pacote_cap/obstacle_navigator_node.py
 resource/pacote_cap
 test/test_copyright.py
 test/test_flake8.py

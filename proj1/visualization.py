@@ -82,7 +82,7 @@ screen = pg.display.set_mode((screen_width, screen_height))
 pg.display.set_caption("Drone Simulation")
 font = pg.font.Font(None, 36)
 
-drone = DronePlayer('proj1/drone.png', d.pos[0], d.pos[2])
+drone = DronePlayer('drone.png', d.pos[0], d.pos[2])
 slalons = pg.sprite.Group()
 
 all_sprites = pg.sprite.Group()

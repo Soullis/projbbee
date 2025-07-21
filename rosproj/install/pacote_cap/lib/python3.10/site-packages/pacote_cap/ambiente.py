@@ -1,6 +1,6 @@
-from drone import Drone
+from . import drone as d
 
-drone = Drone(500, 0, 0, 90)
+drone = d.Drone(500, 0, 0, 90)
 
 arena = [1000, 1000]
 fX = 500
@@ -26,7 +26,7 @@ class Obstaculo():
             +----+
             0    1
 
-            8 = face frontal base
+            8 = x of 0 and x of 1
         """
         if id == 0:
             return [self.posX, self.posY, 0]
@@ -46,6 +46,9 @@ class Obstaculo():
              return [self.posX, self.posY + self.size, self.alt]
         if id == 8:
             return [self.posX, self.posX + self.size]
+        
+    def pos(self):
+        return [self.posX, self.posY]
     
 
 obstaculos = [Obstaculo(fSize, fX, fY, fH), Obstaculo(fSize, fX + 100, fY, fH), Obstaculo(fSize, fX - 100, fY, fH)]

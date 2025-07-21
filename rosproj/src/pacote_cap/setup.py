@@ -23,8 +23,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'objc_detector_pub = pacote_cap.objc_detector_pub:main',
-        'objc_detector_sub = pacote_cap.objc_detector_sub:main'
+        'obstacle_detector = pacote_cap.obstacle_detector_node:main',
+        'obstacle_navigator = pacote_cap.obstacle_navigator_node:main',
+        'drone_controller = pacote_cap.drone_controller:main'
         ],
     },
 )

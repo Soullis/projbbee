@@ -9,7 +9,6 @@ class Drone():
         self.rot = inRot
         self.m = [50, 50, 50, 50] # FL FR BL BR
         self.lidar_val = self.pos[1]
-        self.obj_detector_range = [self.pos[1], self.pos[1] + 10]
 
     def mma(self, roll, pitch, yaw, throttle):
         if self.pos[1] >= 1:
@@ -51,10 +50,6 @@ class Drone():
             self.mma(0, 0, -sp, 0)
         if cmmd == 'tb':
             self.mma(0, 0, 0, -sp)
-
-        for s in self.m:
-            if s > 1:
-                s = 1
 
     def lidar(self, alt):
         return self.pos[1] - alt

@@ -7,15 +7,19 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='pacote_cap',
-            executable='objc_detector_pub',
-            name='detection_talker'
+            executable='obstacle_detector',
+            name='my_detector'
         ),
 
         Node(
             package='pacote_cap',
-            executable='objc_detector_sub',
-            name='detection_listener',
-            output='screen'
-        )
-    ])
+            executable='obstacle_navigator',
+            name='my_navigator',
+        ),
 
+        Node(
+            package='pacote_cap',
+            executable='drone_controller',
+            name='drone_controller'
+        ),
+   ])

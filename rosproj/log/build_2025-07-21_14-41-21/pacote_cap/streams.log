@@ -1,0 +1,53 @@
+[0.475s] Invoking command in '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap': PYTHONPATH=/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote_cap build --build-base /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build install --record /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/install.log --single-version-externally-managed install_data
+[0.669s] running egg_info
+[0.669s] creating ../../build/pacote_cap/pacote_cap.egg-info
+[0.669s] writing ../../build/pacote_cap/pacote_cap.egg-info/PKG-INFO
+[0.670s] writing dependency_links to ../../build/pacote_cap/pacote_cap.egg-info/dependency_links.txt
+[0.670s] writing entry points to ../../build/pacote_cap/pacote_cap.egg-info/entry_points.txt
+[0.670s] writing requirements to ../../build/pacote_cap/pacote_cap.egg-info/requires.txt
+[0.670s] writing top-level names to ../../build/pacote_cap/pacote_cap.egg-info/top_level.txt
+[0.670s] writing manifest file '../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt'
+[0.671s] reading manifest file '../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt'
+[0.672s] writing manifest file '../../build/pacote_cap/pacote_cap.egg-info/SOURCES.txt'
+[0.672s] running build
+[0.673s] running build_py
+[0.673s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build
+[0.673s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib
+[0.673s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.673s] copying pacote_cap/ambiente.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.673s] copying pacote_cap/drone_controller.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.673s] copying pacote_cap/drone.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.673s] copying pacote_cap/__init__.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.673s] copying pacote_cap/obstacle_detector_node.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.673s] copying pacote_cap/obstacle_navigator_node.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap
+[0.674s] running install
+[0.674s] running install_lib
+[0.674s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.675s] copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/ambiente.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.675s] copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/drone_controller.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.675s] copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/drone.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.675s] copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/__init__.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.675s] copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/obstacle_detector_node.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.675s] copying /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build/lib/pacote_cap/obstacle_navigator_node.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap
+[0.676s] byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/ambiente.py to ambiente.cpython-310.pyc
+[0.676s] byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/drone_controller.py to drone_controller.cpython-310.pyc
+[0.677s] byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/drone.py to drone.cpython-310.pyc
+[0.677s] byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/__init__.py to __init__.cpython-310.pyc
+[0.677s] byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/obstacle_detector_node.py to obstacle_detector_node.cpython-310.pyc
+[0.678s] byte-compiling /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap/obstacle_navigator_node.py to obstacle_navigator_node.cpython-310.pyc
+[0.678s] running install_data
+[0.679s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index
+[0.679s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index
+[0.679s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index/packages
+[0.679s] copying resource/pacote_cap -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/ament_index/resource_index/packages
+[0.679s] copying package.xml -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap
+[0.679s] creating /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/launch
+[0.679s] copying launch/drone_launch.py -> /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/launch
+[0.679s] running install_egg_info
+[0.680s] Copying ../../build/pacote_cap/pacote_cap.egg-info to /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages/pacote_cap-0.0.0-py3.10.egg-info
+[0.681s] running install_scripts
+[0.697s] Installing drone_controller script to /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/pacote_cap
+[0.698s] Installing obstacle_detector script to /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/pacote_cap
+[0.698s] Installing obstacle_navigator script to /home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/pacote_cap
+[0.698s] writing list of installed files to '/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/install.log'
+[0.714s] Invoked command in '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap' returned '0': PYTHONPATH=/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote_cap build --build-base /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build install --record /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/install.log --single-version-externally-managed install_data

@@ -1,0 +1,126 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.085s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x781229337d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x781229337940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x781229337940>>)
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gabriel/Área de Trabalho/projbbee/rosproj'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pacote_cap) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pacote_cap' with type 'ros.ament_python' and name 'pacote_cap'
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.261s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/humble
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'pacote_cap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'pacote_cap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap', 'merge_install': False, 'path': '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap', 'symlink_install': False, 'test_result_base': None}
+[0.296s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap' with build type 'ament_python'
+[0.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('pacote_cap', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/hook/ament_prefix_path.ps1'
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/hook/ament_prefix_path.sh'
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap': PYTHONPATH=/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote_cap build --build-base /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build install --record /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/install.log --single-version-externally-managed install_data
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/Área de Trabalho/projbbee/rosproj/src/pacote_cap' returned '0': PYTHONPATH=/home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote_cap build --build-base /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/build install --record /home/gabriel/Área de Trabalho/projbbee/rosproj/build/pacote_cap/install.log --single-version-externally-managed install_data
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap' for CMake module files
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/pkgconfig/pacote_cap.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('pacote_cap', 'pythonpath')
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/hook/pythonpath.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/hook/pythonpath.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/hook/pythonpath.sh'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/bin'
+[1.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pacote_cap)
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/package.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/package.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/package.sh'
+[1.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/package.bash'
+[1.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/pacote_cap/package.zsh'
+[1.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/Área de Trabalho/projbbee/rosproj/install/pacote_cap/share/colcon-core/packages/pacote_cap)
+[1.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.020s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.020s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.024s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/local_setup.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/_local_setup_util_ps1.py'
+[1.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/setup.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/local_setup.sh'
+[1.037s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/_local_setup_util_sh.py'
+[1.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/setup.sh'
+[1.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/local_setup.bash'
+[1.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/setup.bash'
+[1.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/local_setup.zsh'
+[1.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/Área de Trabalho/projbbee/rosproj/install/setup.zsh'
